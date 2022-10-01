@@ -1,6 +1,15 @@
 import random
 
 class selectMap:
+
+    """
+    マップをランダムで選ぶ。
+
+    Returns
+    -------
+    map : String
+        選ばれたマップ。
+    """
     @classmethod
     def selectMap():
         maps = [
